@@ -1,0 +1,35 @@
+{
+  "name": "clean-code-web-game",
+  "version": "0.1.0",
+  "description": "A web-game refactoring skill focused on cleaner scene, store, renderer, and config boundaries without breaking gameplay.",
+  "entry": "main.py",
+  "author": "Lotus312",
+  "language": "python",
+  "tags": [
+    "web-game",
+    "phaser",
+    "clean-code",
+    "refactoring"
+  ],
+  "inputs": [
+    {
+      "name": "task",
+      "type": "string",
+      "required": true,
+      "description": "What refactor or cleanup needs to happen."
+    },
+    {
+      "name": "target",
+      "type": "string",
+      "required": false,
+      "description": "Primary file, module, or scene being refactored."
+    },
+    {
+      "name": "stack",
+      "type": "string",
+      "required": false,
+      "default": "Phaser/Vite web game",
+      "description": "Project stack or engine context."
+    }
+  ]
+}
